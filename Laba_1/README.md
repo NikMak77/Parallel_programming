@@ -216,16 +216,16 @@ else:
 
 ## Инструкция по запуску
 
-g++ -O2 -std=c++17 matrix_mul.cpp -o matrix_mul
-python generate_matrices.py
-python run_experiments.py
-python verify.py matrixA_200.txt matrixB_200.txt result_200.txt
+g++ -O2 -std=c++17 matrix_mul.cpp -o matrix_mul  
+python generate_matrices.py  
+python run_experiments.py  
+python verify.py matrixA_200.txt matrixB_200.txt result_200.txt  
 
 ## Результаты экспериментов
 
 ### Таблица времени выполнения
 
-Было проведено умножение квадратных матриц размера от 200 до 2000. Время замерялось c помощью стандартной оптимизацией
+Было проведено умножение квадратных матриц размера от 200 до 2000. Время замерялось c помощью стандартной оптимизации
 
 | Размер матрицы | -O2 (с)  |   Кол-во операций  |
 |----------------|----------|--------------------|
