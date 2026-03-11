@@ -115,11 +115,11 @@ int main(int argc, char* argv[]) {
     cout << "Объем задачи: " << volume << " операций" << endl;
 
     return 0;
-}
+}```
 
 ### generate_matrices.py
 
-'''
+```
 import numpy as np
 import os
 
@@ -133,10 +133,11 @@ for n in sizes:
         np.savetxt(a_file, mat, fmt='%.6f')
         np.savetxt(b_file, mat, fmt='%.6f')
         print(f"Сгенерированы матрицы {n}x{n}")
+```
 
 ### run_experiments.py
 
-'''
+```
 import subprocess
 import re
 import os
@@ -186,10 +187,11 @@ plt.grid(True)
 plt.savefig("time_vs_n.png")
 plt.show()
 print("График сохранён: time_vs_n.png")
+```
 
 ### verify.py
 
-'''
+```
 import numpy as np
 import sys
 
@@ -209,6 +211,7 @@ else:
     max_diff = np.max(np.abs(C_cpp - C_py))
     print("Верификация не пройдена!")
     print(f"Максимальное расхождение: {max_diff}")
+```
 
 ## Инструкция по запуску
 
