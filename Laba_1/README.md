@@ -115,7 +115,8 @@ int main(int argc, char* argv[]) {
     cout << "Объем задачи: " << volume << " операций" << endl;
 
     return 0;
-}```
+}
+```
 
 ### generate_matrices.py
 
