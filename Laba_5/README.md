@@ -321,7 +321,7 @@ mpirun -r ssh ./matrix_mul
 
 ## Запуск на суперкомпьютере
 
-$ mpicxx matrix_mult_mpi.cpp -o matrix_mult_mpi $ sbatch MPI.pbs
+$ mpicxx matrix_mul.cpp -o matrix_mul $ sbatch MPI.pbs
 
 ## Результаты экспериментов
 
